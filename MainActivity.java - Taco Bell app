@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button button = findViewById(R.id.my_button);
 
+// Calling the .wav file named sound2 that has been added into the 'raw' directory created under 'res'
         mediaPlayer = MediaPlayer.create(this, R.raw.sound2);
 
         button.setOnClickListener(new View.OnClickListener() {
